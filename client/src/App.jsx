@@ -9,6 +9,7 @@ import NavBar from "./Nav";
 import Contact from "./components/Contact";
 import Main from "./components/Main";
 import MySkills from "./components/MySkills";
+import UnderConstruct from "./components/UnderConstruct";
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
           <Route exact path="/" component={Main} />
           <Route exact path="/skills" component={MySkills} />
           <Route exact path="/contact" component={Contact} />
+          <Route exact path="/Components" component={UnderConstruct} />
+          <Route exact path="/about" component={UnderConstruct} />
         </div>
       </Router>
     </div>
